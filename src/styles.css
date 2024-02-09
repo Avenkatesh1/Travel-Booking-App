@@ -6,6 +6,8 @@
 
 body {
     font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    line-height: 1;
 }
 
 .header {
@@ -123,11 +125,11 @@ body {
 
 .offer .main-con .box {
     background: white;
-    width: 281px;
-    height: 281px;
+    width: 320px;
+    height: 330px;
     border-radius: 8px;
-    padding: 20px;
-    margin-top: 30px;
+    padding: 10px;
+    margin-top: 0px;
     overflow: hidden;
     box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
 }
@@ -147,7 +149,7 @@ body {
 .offer .main-con .box .txt p {
     display: flex;
     width: max-content;
-    column-gap: 17px;
+    column-gap: 5px;
 }
 
 .offer .main-con .box .txt p span {
@@ -155,7 +157,7 @@ body {
 }
 
 .offer .main-con .box .btn {
-    margin-top: 7px;
+    margin-top: 0px;
 }
 
 .offer .main-con .box .btn button {
@@ -355,11 +357,12 @@ body {
 }
 
 .copy {
-    padding: 20px 15px;
+    padding: 20px;
     display: flex;
     justify-content: space-around;
     align-items: center;
     background-color: whitesmoke;
+    margin-bottom: auto;
 }
 
 .copy .social {
